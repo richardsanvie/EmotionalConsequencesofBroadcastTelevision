@@ -16,3 +16,93 @@ body {
   border: none;
   border-radius: 12px;
 }
+
+
+
+/* Hp section */
+.chart-box img {
+  max-height: 260px;
+  margin-top: 30px;
+}
+
+/* Hp section gráfico */
+.chart-container {
+  position: relative;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  height: 220px;
+  padding-left: 42px;
+  padding-bottom: 12px;
+}
+
+/* Hp texto R$ 1500 */
+.y-eixo {
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  font-size: 14px;
+}
+
+/* Hp Eixo x */
+.bars {
+  height: 100%;
+  padding-right: 10px;
+}
+
+/* Hp cada barra */
+.bar-item {
+  text-align: center;
+  color: white;
+  background-color: #F9B300;
+  height: 90%;
+}
+
+/* Hp barra */
+.bar {
+  height: 85%;
+  border-radius: 120px;
+  width: 40px;
+
+}
+
+/* Hp Nome dos meses */
+.bar-label {
+  margin-top: 44px;
+  display: block;
+  font-size: 14px;
+}
+
+/* Hp barra min-width: 576px */
+@media (min-width: 576px) {
+  .bar {
+    width: 60px;
+  }
+}
+
+/* Hp barra min-width: 768px */
+@media (min-width: 768px) {
+  .bar {
+    width: 80px;
+  }
+}
+
+/* Hp barra min-width: 992px */
+@media (min-width: 992px) {
+  .bar {
+    width: 100px;
+  }
+}
+
+/* Hp barra min-width: 1200px */
+@media (min-width: 1200px) {
+  .bar {
+    width: 140px;
+  }
+}
+
+/* Hp barra min-width: 1400px */
+@media (min-width: 1400px) {
+  .bar {
+    width: 180px;
+  }
+}
